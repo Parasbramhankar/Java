@@ -1,0 +1,21 @@
+
+if body of lambda expression contains only one statement then curly braces are optional.
+
+in parenthesis parameter type is also optional
+
+ex:
+public int getLength(String str){
+    return str.length();
+}
+
+lambda expression of above function
+
+(str)->str.length();
+----------------------------------------------------------------------------
+functional Interface:
+if the interface contains only one abstract method then it is functional interface
+
+to call the lambda we required functional Interface
+
+lambda is used to implement functional interface in very simple and short manner
+-----------------------------------------------------------------------------
